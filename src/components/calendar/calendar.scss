@@ -1,0 +1,31 @@
+table {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+tbody {
+  tr:nth-child(2n) > td {
+    background: rgba(35, 35, 35, 0.1);
+  }
+}
+
+.fc-day-today {
+  background: #38bdf83f !important;
+}
+
+.fc-scrollgrid-sync-inner > a {
+  color: black;
+}
+
+.fc-scrollgrid-sync-inner > a:hover {
+  color: black;
+}
+
+.fc-timegrid-event-harness {
+  margin: 0.3rem !important;
+
+  * {
+    border-radius: 0.5rem !important;
+    padding: 0.3rem;
+  }
+}
